@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+        content="Botões de Acessibilidade Web HTML CSS JavaScript Aumentar Zoom Diminuir Zoom Auto-contraste">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+        </script>
+
+    <title>Acessibilidade</title>
+
+</head>
+
+
+<body>
+    <main>
+        <div class="container">
+            <ul>
+                <li>
+                    <button type="button" class="btn btn-link onclick=" aumentaZoom()">
+                        <i class="bi bi-plus-circle"></i>
+                    </button>
+                    <button type="button" class="btn btn-link onclick=" diminuiZoom()">
+                        <i class="bi bi-dash-circle"></i>
+                    </button>
+                    <button type="button" class="btn btn-link onclick=" resetZoom()">
+                        <i class="bi bi-arrow-counterclockwise"></i>
+                    </button>
+                    <button type="button" class="btn btn-link onclick=" modoNoturno()">
+                        <i class="bi bi-mask"></i>
+                    </button>
+                </li>
+            </ul>
+            <img class="ryu" src="img/Ryu.png" width="215" alt="Ryu personagem da serie de videogame St">
+            <div class="row">
+            <div class=" col">
+                <p class="fw-light">
+                Imagem de Ryu personagem da serie de videogame Street Fighter. <br>
+                Street Fighter é uma série de jogos de luta desenvolvida pela
+                fabricante japonesa de jogos eletrônicos Capcom.
+            </p>
+            </div>
+        </div>
+        </div>
+    </main>
+
+
+
+    <script src="js/script.js"></script>
+
+
+
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+
+
+    <footer>
+        <a href="https://linkedin.com/in/sandra-silva-santos" target="_blank"><i class="bi bi-linkedin"></i></a>
+        <a href="https://github.com/Sandra-Silva-Santos" target="_blank"><i class="bi bi-github"></i></a>
+        <a href="https://www.youtube.com/user/negasaopaulina" target="_blank"><i class="bi bi-youtube"></i></a>
+    </footer>
+
+</body>

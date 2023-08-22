@@ -1,0 +1,72 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+
+
+div.container {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+ul {
+    align-items: center;
+    padding: 0rem !important;
+    margin: 1rem 0rem !important;
+}
+
+
+li {
+    margin: 0.15rem !important;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+i {
+    font-size: x-large;
+    color: #3d75ad;
+}
+
+button {
+    margin-left: 0.50rem !important;
+    padding: 0rem !important;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+img.ryu {
+
+    object-fit: cover;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    box-shadow: 2px 1px 5px 1px #3d75ad;
+}
+
+p {
+    align-items: center;
+    padding: 1rem;
+}
+
+footer {
+    margin: 5rem;
+    align-items: center;
+    text-align: center;
+    font-size: 1rem;
+    text-decoration: none;
+}
